@@ -18,7 +18,8 @@ Built using Node.js, Express, and MySQL, this project demonstrates secure API de
 * ⚙️ Environment-based Configuration (.env)
 
 ---
-
+live URL of API documentation if run locally
+http://localhost:5000/api-docs/#/Finance/get_api_finance
 ## 🏗️ Tech Stack
 
 * Node.js
