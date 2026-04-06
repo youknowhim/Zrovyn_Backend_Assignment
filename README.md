@@ -15,7 +15,6 @@ Built using Node.js, Express, and MySQL, this project demonstrates secure API de
 * 📄 Pagination (5 records per page)
 * 🚦 Rate Limiting (Login protection)
 * 📚 API Documentation using Swagger
-* 🧪 Integration Testing using Jest & Supertest
 * ⚙️ Environment-based Configuration (.env)
 
 ---
@@ -28,7 +27,6 @@ Built using Node.js, Express, and MySQL, this project demonstrates secure API de
 * JWT (jsonwebtoken)
 * bcrypt.js (password hashing)
 * Swagger (API docs)
-* Jest + Supertest (testing)
 
 ---
 
@@ -41,7 +39,6 @@ finance-backend/
 ├── middleware/       # Auth, role, rate limit
 ├── models/           # DB queries (optional)
 ├── routes/           # API routes
-├── tests/            # Integration tests
 ├── app.js
 ├── server.js
 └── .env
@@ -182,14 +179,6 @@ GET /api/finance?search=salary&page=1&limit=5
 
 * Applied on login API
 * Prevents brute-force attacks
-
----
-
-## 🧪 Running Tests
-
-```bash
-npm test
-```
 
 ---
 
